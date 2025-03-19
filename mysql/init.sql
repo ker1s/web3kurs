@@ -47,6 +47,6 @@ CREATE TABLE order_items (
 
 -- Добавим тестовые данные
 INSERT INTO books (title, author, description, price, image_url, stock) VALUES
-('1984', 'George Orwell', 'A dystopian novel', 19.99, 'https://example.com/1984.jpg', 10),
-('The Hobbit', 'J.R.R. Tolkien', 'A fantasy novel', 24.99, 'https://example.com/hobbit.jpg', 15),
-('Pride and Prejudice', 'Jane Austen', 'A romantic novel', 14.99, 'https://example.com/pride.jpg', 20);
+('1984', 'George Orwell', 'A dystopian novel', 19.99, 'https://cdn1.ozone.ru/s3/multimedia-y/6353881258.jpg', 10),
+('The Hobbit', 'J.R.R. Tolkien', 'A fantasy novel', 24.99, 'https://i.ebayimg.com/images/g/YPoAAOSwls9f~yEo/s-l500.jpg', 15),
+('Pride and Prejudice', 'Jane Austen', 'A romantic novel', 14.99, 'https://i.pinimg.com/736x/6d/c2/b2/6dc2b2e7d744f97e2488e8bc0a1d5f3c.jpg', 20);
